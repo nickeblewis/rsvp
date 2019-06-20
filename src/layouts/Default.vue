@@ -1,10 +1,10 @@
 <template>
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
-    <header class="border-t-14 border-green-700">
+    <header class="border-t-14 border-orange-700">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
-          <g-link v-if="theme === 'theme-light'" to="/"><g-image src="../../static/logo.svg" class="w-40" alt="logo" /></g-link>
-          <g-link v-else to="/"><g-image src="../../static/logo_dark_mode.svg" class="w-40" alt="logo" /></g-link>
+          <g-link v-if="theme === 'theme-light'" to="/"></g-link>
+          <g-link v-else to="/"></g-link>
         </div>
         <div class="block lg:hidden">
           <button @click="toggle" class="flex items-center px-3 py-2 border rounded border-gray-500 hover:text-gray-600 hover:border-gray-600">
@@ -43,7 +43,7 @@
     <div class="flex-grow">
       <slot/>
     </div>
-    <footer class="bg-green-700 text-white">
+    <footer class="bg-orange-700 text-white">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
           <div>Copyright 2019. All rights reserved.</div>
