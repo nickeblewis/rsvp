@@ -11,7 +11,11 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto" id="about">
-      <p class="text-lg sm:text-xl">Here we can add some introductory text about the Jazz club, lets think something up! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellat. Dolores iure, quas perspiciatis rerum quaerat atque eum repellat autem.</p>
+      <p class="text-lg sm:text-xl mb-4">The Bournemouth Big Band Swing and Jazz Club meets on the second Wednesday of each month at the Kinson Community Centre Bournemouth. Currently we have around 25 active members (gents and ladies) who all share a common interest in recorded Jazz music.</p>
+      <p class="text-lg sm:text-xl mb-4">The normal format of each meeting is simple 3 members will present 40 minutes of recorded Jazz music of their own choice. We have state of the art equipment so the sound quality is superb. during the evening there is a break of around 20 minutes for tea/coffee and biscuits and a chance to socialise. Occasionally we have guest speaker.</p>
+      <p class="text-lg sm:text-xl mb-4">New members are most welcome so why not come along and join us your first evening will be totally free of charge, if you like what you hear and see then we would love you to join us as a perminent member there is a one of anual cost of £4 which makes you a member of the Kinson CC and the entry fee for each meeting is just £2 this covers the cost of your refreshment as well as a fantasic evening of recorded jazz music.</p>
+      <p class="text-lg sm:text-xl mb-4">After each Meeting we send out a newsletter to all members with information about all the music played.</p>
+      <p class="text-lg sm:text-xl mb-4">A great way to meet folk who all love jazz music.</p>
 
     
     </div>
@@ -26,22 +30,17 @@
 
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
-            <div>Event One</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>WEDNESDAY THE 10th JULY 7.15pm</div>
+            <div class="text-lg text-gray-600">“You're On!” Each member presents a single track from a favourite Jazz CD. </div>
           </li>
           <li class="checkmark mb-6">
-            <div>Event Two</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>WEDNESDAY THE 14th AUGUST 7.15pm</div>
+            <div class="text-lg text-gray-600">Guest Speaker - The life and times of DUKE ELLINGTON plus HOAGY CARMICHAEL a life in music</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Event Three</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>WEDNESDAY THE 11TH SEPTEMBER</div>
+            <div class="text-lg text-gray-600">Recorded music presentation 3 members present 40 minutes of recorded jazz music</div>
           </li>
-          <li class="checkmark mb-6">
-            <div>Event Four</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-
         </ul>
       </div> <!-- end projects -->
     </div>
