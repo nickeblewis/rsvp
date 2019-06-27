@@ -44,6 +44,27 @@
         </ul>
       </div> <!-- end projects -->
     </div>
+    
+    <div class="overflow-x-hidden">
+      <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
+        <h2 class="font-bold mb-6" id="events">Recent Newsletters</h2>
+
+        <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
+          <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
+        </div>
+
+        <ul class="text-lg sm:text-xl">
+          <li class="checkmark mb-6">
+            <div>June 2019</div>
+            <div class="text-lg text-gray-600"><a href="../../static/newsletter-june-2019.pdf">Download the June 2019 Newsletter (PDF)</a></div>
+          </li>
+          <li class="checkmark mb-6">
+            <div>June 2019</div>
+            <div class="text-lg text-gray-600"><a href="../../static/newsletter-june-2019.pdf">Download the June 2019 Newsletter (PDF)</a></div>
+          </li>
+        </ul>
+      </div> <!-- end projects -->
+    </div>
 
     <!--<div class="overflow-x-hidden border-gray-200 border-b">
       <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
