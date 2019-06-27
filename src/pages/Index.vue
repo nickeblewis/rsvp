@@ -58,10 +58,6 @@
             <div>June 2019</div>
             <div class="text-lg text-gray-600"><a href="/downloads/newsletter-june-2019.pdf">Download the June 2019 Newsletter (PDF)</a></div>
           </li>
-          <li class="checkmark mb-6">
-            <div>June 2019</div>
-            <div class="text-lg text-gray-600"><a href="/downloads/newsletter-june-2019.pdf">Download the June 2019 Newsletter (PDF)</a></div>
-          </li>
         </ul>
       </div> <!-- end projects -->
     </div>
