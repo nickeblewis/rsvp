@@ -101,7 +101,7 @@
           </div>
 
           <div class="text-lg sm:text-lg mb-16">
-            <form name="contact" class="mb-12" data-netlify="true">
+            <form name="contact" class="mb-12" method="POST" data-netlify="true">
               <div class="flex flex-wrap mb-6 -mx-4">
                   <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                       <label class="block mb-2 text-copy-primary" for="name">
@@ -129,7 +129,7 @@
               </div>
 
               <div class="flex justify-end w-full">
-                  <button type="submit" value="Submit" class="block bg-orange-700 hover:bg-orange-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">Submit</button>
+                  <button type="submit" value="submit" class="block bg-orange-700 hover:bg-orange-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">Submit</button>
               </div>
           </form>
           </div>
