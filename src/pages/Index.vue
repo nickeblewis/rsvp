@@ -11,11 +11,21 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto" id="about">
-      <p class="text-lg sm:text-xl mb-4">The Bournemouth Big Band Swing and Jazz Club meets on the second Wednesday of each month at the <a href="https://kinsoncommunitycentre.org.uk/" target="_blank">Kinson Community Centre</a> Bournemouth. Currently we have around 25 active members (gents and ladies) who all share a common interest in recorded Jazz music.</p>
-      <p class="text-lg sm:text-xl mb-4">The normal format of each meeting is simple 3 members will present 40 minutes of recorded Jazz music of their own choice. We have state of the art equipment so the sound quality is superb. during the evening there is a break of around 20 minutes for tea/coffee and biscuits and a chance to socialise. Occasionally we have guest speaker.</p>
-      <p class="text-lg sm:text-xl mb-4">New members are most welcome so why not come along and join us your first evening will be totally free of charge, if you like what you hear and see then we would love you to join us as a perminent member there is a one of anual cost of £4 which makes you a member of the Kinson CC and the entry fee for each meeting is just £2 this covers the cost of your refreshment as well as a fantasic evening of recorded jazz music.</p>
-      <p class="text-lg sm:text-xl mb-4">After each Meeting we send out a newsletter to all members with information about all the music played.</p>
-      <p class="text-lg sm:text-xl mb-4">A great way to meet folk who all love jazz music.</p>
+      <p class="text-lg sm:text-xl mb-4">The Bournemouth Big Band Swing and Jazz Club meets on the second Wednesday of each month (7.15 - 9.45pm) in the Sharp Room of the <a href="https://kinsoncommunitycentre.org.uk/" target="_blank">Kinson Community Centre</a> Bournemouth.</p>
+      
+      <p class="text-lg sm:text-xl mb-4">Currently we have around 25 active members (Ladies and Gents) who all share a common interest in recorded Jazz music of all kinds. This can (and frequently does) range from early Dixieland to Modern Jazz via Mainstream and Big Band.</p>
+
+      <p class="text-lg sm:text-xl mb-4">The normal format of each meeting is simple - 3 members will each present 40 programme minutes of recorded Jazz music of their own choice - usually with a clever or interesting theme.</p>
+        
+      <p class="text-lg sm:text-xl mb-4">We have state of the art equipment so the sound quality is superb. After the first two presentations there is a break of around 20 minutes for tea/coffee and biscuits and a chance to socialise. Occasionally we have a guest speaker.</p>
+
+      <p class="text-lg sm:text-xl mb-4">New members are most welcome so why not come along and join us, your first evening will be totally free of charge. If you like what you hear and see then we would love you to join us as a permanent member.</p>
+        
+      <p class="text-lg sm:text-xl mb-4">There is a one-off annual cost of £4 which makes you a member of the Kinson CC and the entry fee for each meeting is just £2 which covers the cost of your refreshment as well as a fantastic evening of recorded jazz music.</p>
+
+      <p class="text-lg sm:text-xl mb-4">After each Meeting we send out a newsletter via email to all members with album and personal details about all the music played.</p>
+
+      <p class="text-lg sm:text-xl mb-4">A really great way to meet folk who all love jazz music.</p>
 
     
     </div>
