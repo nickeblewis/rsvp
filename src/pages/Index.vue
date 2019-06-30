@@ -129,7 +129,7 @@
               </div>
 
               <div class="flex justify-end w-full">
-                  <input type="submit" value="Submit" class="block bg-orange-700 hover:bg-orange-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">
+                  <button type="submit" value="Submit" class="block bg-orange-700 hover:bg-orange-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">Submit</button>
               </div>
           </form>
           </div>
