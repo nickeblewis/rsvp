@@ -101,14 +101,28 @@
           </div>
 
           <div class="text-lg sm:text-lg mb-16">
-            <form name="contact" class="mb-12" method="POST" data-netlify="true">
+            <form 
+              name="contact" 
+              class="mb-12" 
+              method="post" 
+              v-on:submit.prevent="handleSubmit"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
+              <p hidden>
+                <label>
+                  Don’t fill this out: <input name="bot-field" />
+                </label>
+              </p>
               <div class="flex flex-wrap mb-6 -mx-4">
                   <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                       <label class="block mb-2 text-copy-primary" for="name">
                           Name
                       </label>
 
-                      <input type="text" name="name" id="name" placeholder="Joe Bloggs" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
+                      <input type="text" name="name" id="name" placeholder="Joe Bloggs" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" 
+                      v-model="formData.name"
+                      required>
                   </div>
 
                   <div class="w-full px-4 md:w-1/2">
@@ -116,7 +130,9 @@
                           Email Address
                       </label>
 
-                      <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-orange-700 mb-2 p-4" required>
+                      <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-orange-700 mb-2 p-4" 
+                       v-model="formData.email"
+                      required>
                   </div>
               </div>
 
@@ -125,7 +141,9 @@
                       Message
                   </label>
 
-                  <textarea id="message" rows="5" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-orange-700 mb-2 px-4 py-4" placeholder="Enter your message here." required></textarea>
+                  <textarea id="message" rows="5" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-orange-700 mb-2 px-4 py-4" placeholder="Enter your message here." 
+                  v-model="formData.message"
+                  required></textarea>
               </div>
 
               <div class="flex justify-end w-full">
@@ -165,6 +183,31 @@
 
 <script>
 export default {
+  data() {
+    return {
+      formData: {},
+    }
+  },
+  methods: {
+  encode(data) {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&')
+  },
+  handleSubmit(e) {
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: this.encode({
+        'form-name': e.target.getAttribute('name'),
+        ...this.formData,
+      }),
+    })
+    .then(() => this.$router.push('/success'))
+    .catch(error => alert(error))
+  }
+},
+
   metaInfo: {
     title: 'Home'
   }
