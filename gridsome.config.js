@@ -19,6 +19,12 @@ module.exports = {
   siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
   plugins: [
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-159000-31'
+      }
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'blog/**/*.md',
