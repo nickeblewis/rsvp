@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 module.exports = {
   siteName: 'Bournemouth Big Band and Swing Jazz Club',
   siteDescription: 'Invite you to nights of recorded jazz music at the Kinson Community Centre, Bournemouth on the second Wednesday of each month.',
-  siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
+  siteUrl: 'https://bournemouthjazzclub.org',
   plugins: [
     {
       use: '@gridsome/plugin-google-analytics',
