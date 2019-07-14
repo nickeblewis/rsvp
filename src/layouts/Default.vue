@@ -52,7 +52,8 @@
           <div>Copyright 2019. All rights reserved.</div>
           <div>
             <a href="rss.xml" class="text-white hover:text-gray-400 font-normal">RSS Feed</a> |
-            <a href="sitemap.xml" class="text-white hover:text-gray-400 font-normal">Sitemap</a>
+            <a href="sitemap.xml" class="text-white hover:text-gray-400 font-normal">Sitemap</a> |
+            <a href="http://nicklewis.net" class="text-white hover:text-gray-400 font-normal">Built &amp; Maintained by Nick Lewis Digital</a>
           </div>
         </div>
         
