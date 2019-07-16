@@ -65,11 +65,35 @@
 
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
+            <div>July 2019</div>
+            <div class="text-lg text-gray-600"><a href="/downloads/newsletter-july-2019.pdf">Download the July 2019 Newsletter (PDF)</a></div>
+          </li>
+          <li class="checkmark mb-6">
             <div>June 2019</div>
             <div class="text-lg text-gray-600"><a href="/downloads/newsletter-june-2019.pdf">Download the June 2019 Newsletter (PDF)</a></div>
           </li>
           <li class="checkmark mb-6">
-            <div>All other newsletters</div>
+            <div>May 2019</div>
+            <div class="text-lg text-gray-600"><a href="/downloads/newsletter-may-2019.pdf">Download the May 2019 Newsletter (PDF)</a></div>
+          </li>
+          <li class="checkmark mb-6">
+            <div>April 2019</div>
+            <div class="text-lg text-gray-600"><a href="/downloads/newsletter-april-2019.pdf">Download the April 2019 Newsletter (PDF)</a></div>
+          </li>
+          <li class="checkmark mb-6">
+            <div>March 2019</div>
+            <div class="text-lg text-gray-600"><a href="/downloads/newsletter-march-2019.pdf">Download the March 2019 Newsletter (PDF)</a></div>
+          </li>
+          <li class="checkmark mb-6">
+            <div>February 2019</div>
+            <div class="text-lg text-gray-600"><a href="/downloads/newsletter-february-2019.pdf">Download the February 2019 Newsletter (PDF)</a></div>
+          </li>
+          <li class="checkmark mb-6">
+            <div>January 2019</div>
+            <div class="text-lg text-gray-600"><a href="/downloads/newsletter-january-2019.pdf">Download the January 2019 Newsletter (PDF)</a></div>
+          </li>         
+          <li class="checkmark mb-6">
+            <div>All other newsletters and more</div>
             <div class="text-lg text-gray-600"><a href="/blog">Visit our Blog section!</a></div>
           </li>
         </ul>
