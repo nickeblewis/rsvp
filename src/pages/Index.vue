@@ -51,6 +51,19 @@
                 </label>
               </p>
               <div class="flex flex-wrap mb-6 -mx-4">
+                  <div class="w-full px-4">
+                      <label class="block mb-2 text-copy-primary" for="attendance">
+                          Can you attend?
+                      </label>
+
+                      <input type="radio" name="yes" id="yes" value="yes"
+                      v-model="formData.attendance"
+                      required> Yes<br>
+                      <input type="radio" name="no" id="no" value="no"
+                      v-model="formData.attendance"
+                      required> No<br><br>
+                  </div>
+
                   <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                       <label class="block mb-2 text-copy-primary" for="name">
                           Name
