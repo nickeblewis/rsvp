@@ -110,9 +110,6 @@
         </div>
       </div> <!-- end contact-me -->
     </div>
-
-  
-
   </Layout>
 </template>
 
@@ -138,7 +135,7 @@ export default {
         ...this.formData,
       }),
     })
-    .then(() => this.$router.push('/'))
+    .then(() => this.$router.push('/success'))
     .catch(error => alert(error))
   }
 },
