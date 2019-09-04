@@ -58,10 +58,10 @@
 
                       <input type="radio" name="yes" id="yes" value="yes"
                       v-model="formData.attendance"
-                      required> Yes<br>
+                      > Yes<br>
                       <input type="radio" name="no" id="no" value="no"
                       v-model="formData.attendance"
-                      required> No<br><br>
+                      > No<br><br>
                   </div>
 
                   <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
