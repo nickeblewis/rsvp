@@ -37,10 +37,10 @@
                           Can you attend?
                       </label>
 
-                      <input type="radio" name="yes" id="yes" value="yes"
+                      <input type="radio" name="attendance" id="yes" value="yes"
                       v-model="formData.attendance"
                       > Yes<br>
-                      <input type="radio" name="no" id="no" value="no"
+                      <input type="radio" name="attendance" id="no" value="no"
                       v-model="formData.attendance"
                       > No<br><br>
                   </div>
