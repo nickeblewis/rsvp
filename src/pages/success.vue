@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container-inner mx-auto py-16">
-      <h2 class="text-4xl font-bold mb-16">Thanks for your message, I will respond soon...</h2>
+      <h2 class="text-4xl font-bold mb-16">Thanks for your RSVP, this has been passed onto Matt and Alice</h2>
     </div>
 
   </Layout>
@@ -10,7 +10,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Thanks for your RSVP, this has been passed onto Matt and Alice'
+    title: 'Thanks for your RSVP'
   }
 }
 </script>
